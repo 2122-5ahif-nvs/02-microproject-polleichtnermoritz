@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor "Customer" as u
+rectangle car-dealership {
+  usecase "buy car" as UC1
+  usecase "show Customer purchase history" as UC2
+  usecase "view assortment" as UC3
+}
+u -- UC1
+u -- UC2
+u -- UC3
+@enduml

@@ -1,0 +1,27 @@
+[plantuml, cld, png]
+include::plantuml/cld.puml[]
+@startuml
+class Car{
+    -brand :String
+    -model :String
+    -horsepower :int
+    -constructionYear :int
+    -color :String
+}
+class Invoice{
+    -customer :Customer
+    -car :Car
+    -amount :BigDecimal
+    -purchaseDate :LocalDate
+}
+class Customer{
+    -firstname :String
+    -lastname :String
+    -eMail :String
+    -address :String
+}
+Invoice "1"-left->"1" Car :belongs >
+Invoice "*"-"1" Customer :gets <
+
+
+@enduml

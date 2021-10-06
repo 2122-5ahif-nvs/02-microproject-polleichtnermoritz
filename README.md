@@ -28,17 +28,3 @@ dealership assortment of the dealership, and of course buy a car
 3. as an user i want to have a look on the dealerships assortment
 
 ![](./asciidoc/images/ucd.png)
-
-- [x] Tables and Annotations
-- [x] QueryParam
-- [x] PathParam
-- [x] GET-Request
-- [x] POST-Request
-- [x] PUT-Request
-- [ ] PATCH-Request
-- [x] Request.http (with the endpoints to make the user stories work)
-- [x] Readme
-- [x] UseCase
-- [x] Swagger Documentation
-- [x] Swagger Documentation for Endpoints
-- [x] Checklist

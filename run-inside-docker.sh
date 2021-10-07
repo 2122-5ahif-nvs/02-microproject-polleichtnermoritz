@@ -3,6 +3,8 @@ BUILD_DIR="gh-pages"
 echo "BUILD_DIR->${BUILD_DIR}"
 OLD=${PWD}
 echo "OLD->${OLD}"
+git config --global user.email "moritz.polleichtner@outlook.com"
+git config --global user.name "polleichtnermoritz"
 docker run --rm \
            -v ${PWD}:/documents \
            --env-file ./.env \
@@ -11,7 +13,7 @@ docker run --rm \
 cd $PWD/$BUILD_DIR
 CURRENT_FOLDER=${PWD}
 echo "current folder->${CURRENT_FOLDER}"
-git push --force origin master:gh-pages
+git push --force origin main:gh-pages
 echo gh-pages pushed to github ...
 cd $OLD
 rm -rf $BUILD_DIR

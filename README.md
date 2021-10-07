@@ -17,7 +17,7 @@ dealership assortment of the dealership, and of course buy a car
  
 #### class
 
-![](./asciidoc/images/cld.png)
+![](asciidocs/images/cld.png)
 
 #### use case 
 
@@ -25,4 +25,4 @@ dealership assortment of the dealership, and of course buy a car
 2. as an user I want to get a overview of my previous purchases
 3. as an user i want to have a look on the dealerships assortment
 
-![](./asciidoc/images/ucd.png)
+![](asciidocs/images/ucd.png)

@@ -13,8 +13,6 @@ dealership assortment of the dealership, and of course buy a car
 
 - a little rest service was created, where CRUD-methods are implemented
 
-- the application is tested with assertj and restassured
-
 ### diagrams
  
 #### class

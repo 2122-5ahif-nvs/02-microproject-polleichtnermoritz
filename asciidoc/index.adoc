@@ -1,0 +1,37 @@
+= Car Dealer
+Moritz P.
+1.0.0, 2021-10-06
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:sectnums:
+:toc: left
+
+ifdef::backend-html5[]
+
+== Description
+
+### idea of the project
+- the idea of my project is a small simple car-dealer, who sells
+cars to customer and give them bills
+
+- the customer can review all bills of his previous purchases and have a look at the
+dealership assortment of the dealership, and of course buy a car
+
+### implementation
+
+- a little rest service was created, where CRUD-methods are implemented
+
+
+== Diagrams
+
+=== CLD - Class diagram
+[plantuml, cld, png, align=left]
+----
+include::plantuml/cld.puml[leveloffset=+1]
+----
+
+=== UCD - Use case diagram
+[plantuml, ucd, png, align=left]
+----
+include::plantuml/ucd.puml[leveloffset=+1]
+----

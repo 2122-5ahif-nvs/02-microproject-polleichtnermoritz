@@ -13,16 +13,14 @@ dealership assortment of the dealership, and of course buy a car
 
 - a little rest service was created, where CRUD-methods are implemented
 
-### diagrams
- 
-#### class
 
-![](asciidocs/images/cld.png)
+### Getting Started
 
-#### use case 
+#### start DB docker container
+```shell
+./startDB.sh
+```
 
-1. as an user I want to buy a car
-2. as an user I want to get a overview of my previous purchases
-3. as an user i want to have a look on the dealerships assortment
 
-![](asciidocs/images/ucd.png)
+#### OpenAPI Documentation
+[here](http://localhost:8080/swagger-ui)

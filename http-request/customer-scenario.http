@@ -1,0 +1,67 @@
+
+###
+POST http://localhost:8080/api-car/car
+Content-Type: application/json
+
+{
+  "brand": "Mercedes",
+  "model": "E500",
+  "horsePower": 400,
+  "constructionYear": 2017,
+  "color": "black"
+}
+###
+POST http://localhost:8080/api-car/car
+Content-Type: application/json
+
+{
+  "brand": "audi",
+  "model": "addf",
+  "horsePower": 4535,
+  "constructionYear": 2017,
+  "color": "dfsnnhsfgn"
+}
+###
+//Use Case 1: as an customer i want to look a the dealers assortment (displays all cars that are availiable for purchase)
+GET http://localhost:8080/api-car/allAvailable?limit=1
+Accept: application/json
+
+###
+POST http://localhost:8080/api-customer/customer
+Content-Type: application/json
+
+{
+  "lastName": "stefan",
+  "firstName": "stefan",
+  "eMailAddress": "sdovdfovdfvfv",
+  "address": "hsdvhsdivsdvsd"
+}
+
+###
+
+//Use Case 2: as an customer i want to buy a car (the car should be unavailable from now on and an invoide should be created)
+
+POST http://localhost:8080/api-Invoice/Invoice
+Content-Type: application/json
+
+{
+  "customerId": 1,
+  "carId": 1,
+  "amount": 40000,
+  "purchaseDate": "2020-11-11"
+}
+###
+POST http://localhost:8080/api-Invoice/Invoice
+Content-Type: application/json
+
+{
+  "customerId": 1,
+  "carId": 2,
+  "amount": 40000,
+  "purchaseDate": "2020-11-11"
+}
+
+###
+//Use Case 3: as an customer/owner i want to see all my previous purchases (displays all invoices from specific user)
+GET http://localhost:8080/api-Invoice/Invoice/purchaseHistory/1
+Accept: application/json

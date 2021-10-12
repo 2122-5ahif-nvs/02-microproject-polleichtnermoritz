@@ -7,7 +7,7 @@
 cars to customer and give them bills
 
 - the customer can review all bills of his previous purchases and have a look at the 
-dealership assortment of the dealership, and of course buy a car
+dealerships assortment, and of course buy a car
 
 ### implementation
 

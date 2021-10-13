@@ -25,13 +25,13 @@ dealership assortment of the dealership, and of course buy a car
 == Diagrams
 
 === CLD - Class diagram
-[plantuml, cld, png, align=left]
+[plantuml, cld, png]
 ----
 include::plantuml/cld.puml[]
 ----
 
 === UCD - Use case diagram
-[plantuml, ucd, png, align=left]
+[plantuml, ucd, png]
 ----
 include::plantuml/ucd.puml[]
 ----

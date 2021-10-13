@@ -16,11 +16,15 @@ dealership assortment of the dealership, and of course buy a car
 
 ### Getting Started
 
-#### start DB docker container
+#### start DB
 ```shell
-./startDB.sh
+docker-compose up
 ```
 
+#### start project
+```shell
+mvn clean compile quarkus:dev
+```
 
 #### OpenAPI Documentation
 [here](http://localhost:8080/swagger-ui)
